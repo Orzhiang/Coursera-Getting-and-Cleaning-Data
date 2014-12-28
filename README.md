@@ -52,7 +52,7 @@ The scripts perform the following steps:-
 
 3) Replace "()" with "_" in the column names of **Data_tbl** using function *gsub*.
 
-4) Group **Data_tbl** by Subjects and Labels using function *group_by*. Summarize the grouped data by mean from column index 3 to 68 of **Data_tb;** using function *summarise_each_* from library *dplyr*. The summary table is assigned to new data frame **Data_New_tbl**.
+4) Group **Data_tbl** by Subjects and Labels using function *group_by*. Summarize the grouped data by mean from column index 3 to 68 of **Data_tbl** using function *summarise_each_* from library *dplyr*. The summary table is assigned to new data frame **Data_New_tbl**.
 
 ####E - EXPORT DATA
 1) Export **Data_New_tbl** in txt format to the working directory with the name of "Tidy Data Set" following with System Date and System Time using function *write.table* with *row.name=F*
