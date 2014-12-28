@@ -8,11 +8,19 @@ Before running the R script, please replace the directory in setwd to the workin
 The scripts
 
 1) Call library dplypr.
+
 2) Read "UCI HAR Dataset/features.txt" into Features using function read.table with header = F.
+
 3) Read "UCI HAR Dataset/activity_labels.txt" into Act_labs using function read.table with header = F.
+
 4) Read "UCI HAR Dataset/test/subject_test.txt" into Sub_Test using function read.table with header = F.
+
 5) Read "UCI HAR Dataset/train/subject_train.txt" into Sub_Train using function read.table with header = F.
+
 6) Read "UCI HAR Dataset/test/X_test.txt" into XTest_Data using function read.table with header = F.
+
 7) Read "UCI HAR Dataset/test/y_test.txt" into YTest_Data using function read.table with header = F.
+
 8) Read "UCI HAR Dataset/train/X_train.txt" into XTrain_Data using function read.table with header = F.
+
 9) Read "UCI HAR Dataset/train/y_train.txt" into YTrain_Data using function read.table with header = F.
