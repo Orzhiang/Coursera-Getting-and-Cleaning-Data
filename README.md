@@ -11,8 +11,8 @@ The scripts
 1) Call library dplypr.
 
 ##B - READ DATA
-1) Read list of all features from "UCI HAR Dataset/features.txt" into Features using function read.table with header = F.
-2) Read the table that links the class labels with their activity name from "UCI HAR Dataset/activity_labels.txt" into Act_labs using function read.table with header = F.
+1) Read list of all features from "UCI HAR Dataset/features.txt" into *Features* using function read.table with header = F.
+2) Read the table that links the class labels with their activity name from "UCI HAR Dataset/activity_labels.txt" into *Act_labs* using function read.table with header = F.
 
 3) Read subjects from test set from "UCI HAR Dataset/test/subject_test.txt" into Sub_Test using function read.table with header = F.
 
