@@ -42,6 +42,8 @@ The scripts perform the following steps:-
 
 7) Combine **Sub_Data**,**Y_Data** and **X_Data** in a new data frame **Complete_Data** by using function *cbind*。
 
+8) Replace the class labels in the second column of **Complete_Data** with respective Activity Labels as per the table illustrated in data frame **Act_labs**.
+
 ####D - EXTRACT AND CLEAN DATA
 
 1) Obtain column index from all **Complete_Data** column names with "mean()" and "std()" using function *grep*. Select the columns based on the index obtained by function *grep*. Create a new data frame tbl item **Data_tbl** from the selected columns using function *tbl_df* from library *dplyr*.
