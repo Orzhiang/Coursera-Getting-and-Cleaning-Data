@@ -30,7 +30,7 @@ The scripts perform the following steps:-
 ####C - COMBINE DATA
 1) Combine test set and training set using function *rbind* on **XTrain_Data** and **XTest_Data**. Assign the combination to a new data frame **X_Data**.
 
-2)Combine test labels and training labels using function *rbind* on **YTrain_Data** and **YTest_Data**. Assign the combination to a new data frame **Y_Data**.
+2) Combine test labels and training labels using function *rbind* on **YTrain_Data** and **YTest_Data**. Assign the combination to a new data frame **Y_Data**.
 
 3) Combine subjects from training set and test set using function *rbind* on **Sub_Train** and **Sub_Test**. Assign the combination to a new data frame **Sub_Data**.
 
