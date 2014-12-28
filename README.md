@@ -3,7 +3,7 @@ Coursera-Getting-and-Cleaning-Data
 
 The code should have a file run_analysis.R in the main directory that can be run as long as the Samsung data is in the working directory.
 
-Before running the R script, please replace the directory in setwd to the working directory.
+Before running the R script, please replace the directory in function **setwd** to the working directory.
 
 The scripts perform the following steps:-
 
@@ -42,7 +42,7 @@ The scripts perform the following steps:-
 
 7) Combine **Sub_Data**,**Y_Data** and **X_Data** in a new data frame **Complete_Data** by using function *cbind*。
 
-####D - Extract Relevant Data
+####D - EXTRACT AND CLEAN DATA
 
 1) Obtain column index from all **Complete_Data** column names with "mean()" and "std()" using function *grep*. Select the columns based on the index obtained by function *grep*. Create a new data frame tbl item **Data_tbl** from the selected columns using function *tbl_df* from library *dplyr*.
 
@@ -52,5 +52,5 @@ The scripts perform the following steps:-
 
 4) Group **Data_tbl** by Subjects and Labels using function *group_by*. Summarize the grouped data by mean from column index 3 to 68 of **Data_tb;** using function *summarise_each_* from library *dplyr*. The summary table is assigned to new data frame **Data_New_tbl**.
 
-####E - Export Data
+####E - EXPORT DATA
 1) Export **Data_New_tbl** in txt format to the working directory with the name of "Tidy Data Set" following with System Date and System Time using function *write.table* with *row.name=F*
